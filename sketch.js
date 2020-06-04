@@ -16,8 +16,8 @@ function setup() {
   box = new Box(50,200,20,20);
 
   var options={
-    bodyA:ground,
-    bodyB:box,
+    bodyA:box.body,
+    bodyB:ground.body,
     stiffness:0.04,
     length:10
   }
